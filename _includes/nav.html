@@ -4,7 +4,7 @@
 		<li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
 		<li class="{% if page.url contains '/Welbreathe%20Centre/' %} active {% endif %}"><a href="{{ "/Welbreathe Centre/" | absolute_url }}">Welbreathe Centre</a></li>
 		<li class="{% if page.url contains '/solutions/' %} active {% endif %}"><a href="{{ "/solutions/" | absolute_url }}">solutions</a></li>
-		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOyRbBWwS9yFapGu8USxE4RNif4EEN8xHdbvec0mpxgxPE1A/viewform?usp=sf_link">Survey</a></li>	  
+		<li class="{% if page.url contains '/Survey/' %} active {% endif %}"><a href="{{ "/Survey/" | absolute_url }}">Survey</a></li>	  
 		<li class><a href= "https://google.com">Pay</a></li> 
 	</ul>
 	<ul class="icons">
